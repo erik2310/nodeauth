@@ -7,7 +7,7 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var passport = require('passport');
-var expressValidator 
+var expressValidator = require('express-validator');
 var LocalStrategy = require('passport-local').Strategy;
 var multer = require('multer');
 var upload = multer({dest: './uploads'});
